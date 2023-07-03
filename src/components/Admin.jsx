@@ -75,7 +75,7 @@ const Admin = () => {
             { sourcesPerPg?.length && sourcesPerPg !== undefined ? sourcesPerPg[currentPage - 1].map(res => 
                 <div className="row d-flex justify-content-start p-3 col-12 col-sm-12 col-md-11 col-md-9 card-op mb-3 mx-auto" key={res._id}>
                     <div className="d-flex align-items-center col-4 col-md-4 col-lg-3 col-xl-5 mb-3 p-2 rounded-3" style={{ backgroundColor: 'rgb(214, 214, 214)' }}>
-                        <img className="w-100" src={`http://localhost:3000/${res.file}`} />
+                        <img className="w-100" src={`https://fabulous-praline-a34cda.netlify.app/${res.file}`} />
                     </div>
                     <div className="col-8 col-md-8 col-lg-9 col-xl-7 mb-3 info-container d-flex flex-column justify-content-between">
                         <div>
