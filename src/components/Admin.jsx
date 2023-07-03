@@ -42,10 +42,10 @@ const Admin = () => {
         setSource(res);
     }
 
-    
+
     useEffect(() => {
         getAllSources();
-    }, []);
+    }, [active]);
 
     useEffect(() => {
         setFilteredSource(sources)

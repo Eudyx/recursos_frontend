@@ -16,6 +16,8 @@ const DeleteForm = ({ source, active, setActive }) => {
                 deleteDescription: msg
             });
             await axios.delete(`/sources/${source._id}`);
+
+            setActive(false);
         } catch (err) {
             console.error(err);
         }
